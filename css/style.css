@@ -142,6 +142,10 @@ img {
 
  /* query mobile: dai 480px in giù */
  @media screen and (max-width: 480px) {
+    h1{
+        font-size: 3rem;
+    }
+    
     h2{
         font-size: 2.2rem;
     }
@@ -176,4 +180,9 @@ img {
     .why-us .container{
         background-color: black;
         padding: 50px 20px;}
+
+    .why-us{
+        margin: 0;
+    }
  }
+
